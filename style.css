@@ -1,0 +1,489 @@
+body {
+    font-family: Zilla Slab, Georgia, serif;
+}
+
+h1 {
+    display: inline-block;
+    font-weight: 100;
+    padding: 40px 65px 30px 0;
+    text-transform: uppercase;
+}
+
+.links {
+    display: inline-block;
+    margin-left: 0px;
+}
+
+.links li {
+    display: inline-block;
+}
+
+.links a {
+    color: black;
+    text-decoration: none;
+    font-size: 17px;
+    margin: 0 8px;
+}
+
+.links a:hover {
+    color: blue;
+    font-size: 16px;
+}
+
+.links a:visited {
+    color: blueviolet;
+}
+
+.navbar {
+    margin: 0 0 0 90px;
+    top: 0;
+    display: block;
+}
+
+header {
+    display: block;
+}
+
+.links ul {
+    padding: 0;
+}
+
+.gallery {
+    margin: 0px 90px 0 90px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.card {
+    width: 47%;
+    box-sizing: border-box;
+    display: inline-block;
+}
+
+.card img {
+    height: auto;
+    width: 100%;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.card figcaption {
+    font-weight: 100;
+    font-size: 15px;
+    margin: 8px 0 40px 0;
+}
+
+.card img:hover {
+    opacity: 0.9;
+}
+
+.about {
+    font-size: 17px;
+    margin: 80px 0 0 90px;
+    min-width: 600px;
+    width: 40%;
+}
+
+.about h3 {
+    font-weight: 100;
+    margin-bottom: 50px;
+}
+
+#cta {
+    border-bottom: 1px solid #ff3220;
+    display: inline;
+    padding-bottom: 2px;
+    font-size: 24px;
+    color: #ff3220;
+    font-weight: 400;
+}
+
+button {
+    display: inline-block;
+    display: inline;
+    width: 180px;
+    height: 45px;
+    border-radius: 20px;
+    text-transform: uppercase;
+    font-size: 15px;
+    font-weight: 600;
+    color: #ff3220;
+    border-color: #ff3220;
+}
+
+button:hover {
+    background-color: #ff3220;
+    color: #ffffff;
+}
+
+.contact {
+    font-size: 13px;
+    margin: 10px 0 10px 0;
+    padding: 0;
+}
+
+.contact p {
+    margin: 0;
+}
+
+.footer li {
+    font-size: 12px;
+    display: inline;
+    margin-bottom: 0;
+}
+
+.footer li a {
+    color: black;
+    text-decoration: none;
+    margin: 0 0 0 0px;
+    padding: 5px;
+    padding-right: 20px;
+    padding-left: 50px;
+}
+
+footer {
+    width: auto;
+    border-top: 1px solid black;
+}
+
+footer li a:hover {
+    color: blue;
+    font-size: 13px;
+}
+
+footer li a:visited {
+    color: blueviolet;
+}
+
+small {
+    font-size: 11px;
+    margin: 0 0 50px 90px;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:hover {
+    font-size: 14px;
+}
+
+@media only screen and (min-width: 769px) and (max-width: 1279px) {
+    h1 {
+        font-size: 28px;
+        padding-bottom: 0px;
+    }
+
+    .links a {
+        font-size: 15px;
+        margin: 0;
+        padding-right: 10px;
+    }
+
+    .links {
+        display: inline;
+        margin-left: 0px;
+    }
+
+    ul {
+        margin-top: 0px;
+    }
+
+    .links a:hover {
+        font-size: 16px;
+    }
+
+    .card {
+        width: 47%;
+        box-sizing: border-box;
+        display: inline-block;
+        margin-top: 20px;
+    }
+
+    .card figcaption {
+        font-weight: 100;
+        font-size: 16px;
+        margin: 4px 0 20px 0;
+    }
+
+    .about {
+        font-size: 100%;
+        margin: 30px 0 0 90px;
+        min-width: 270px;
+        width: 40%;
+    }
+
+    .about h3 {
+        font-weight: 100;
+        margin-bottom: 25px;
+    }
+
+    .contact {
+        font-size: 95%;
+        margin: 10px 0 35px 0;
+        padding: 0;
+    }
+
+    button {
+        display: inline;
+        width: 165px;
+        height: 38px;
+        border-radius: 20px;
+        text-transform: uppercase;
+        font-size: 14px;
+        font-weight: 600;
+        color: #ff3220;
+    }
+
+    button:hover {
+        background-color: #ff3220;
+        color: #ffffff;
+    }
+
+    .footer li {
+        font-size: 12px;
+        display: inline;
+    }
+
+    .footer li a {
+        color: black;
+        text-decoration: none;
+        margin: 0 0 0 50px;
+        padding: 0px;
+    }
+
+    footer {
+        width: auto;
+        border-top: 1px solid black;
+    }
+
+    footer li a:hover {
+        color: blue;
+        font-size: 13px;
+    }
+
+    small {
+        font-size: 11px;
+        margin: 0 0 50px 90px;
+    }
+
+    #cta {
+        font-size: 22px;
+    }
+
+    .footer li a {
+        padding: 4px;
+    }
+}
+
+@media only screen and (min-width: 480px) and (max-width: 768px) {
+    h1 {
+        font-size: 26px;
+        padding-bottom: 0px;
+    }
+
+    .links {
+        display: inline;
+        margin-left: 0px;
+    }
+
+    .links a {
+        font-size: 15px;
+        margin: 0;
+        padding-right: 10px;
+    }
+
+    ul {
+        margin-top: 0px;
+    }
+
+    .links a:hover {
+        font-size: 16px;
+    }
+
+    .card {
+        width: 100%;
+        box-sizing: border-box;
+        display: inline-block;
+        margin-top: 20px;
+    }
+
+    .card figcaption {
+        font-weight: 100;
+        font-size: 16px;
+        margin: 4px 0 20px 0;
+    }
+
+    .about {
+        font-size: 100%;
+        margin: 30px 0 0 90px;
+        min-width: 270px;
+        width: 40%;
+    }
+
+    .about h3 {
+        font-weight: 100;
+        margin-bottom: 25px;
+    }
+
+    .contact {
+        font-size: 95%;
+        margin: 10px 0 35px 0;
+        padding: 0;
+    }
+
+    button {
+        display: inline;
+        width: 165px;
+        height: 38px;
+        border-radius: 20px;
+        text-transform: uppercase;
+        font-size: 14px;
+        font-weight: 600;
+        color: #ff3220;
+    }
+
+    button:hover {
+        background-color: #ff3220;
+        color: #ffffff;
+    }
+
+    .footer li {
+        font-size: 12px;
+        display: inline;
+    }
+
+    .footer li a {
+        color: black;
+        text-decoration: none;
+        margin: 0 0 0 50px;
+        padding: 0px;
+    }
+
+    footer {
+        width: auto;
+        border-top: 1px solid black;
+    }
+
+    footer li a:hover {
+        color: blue;
+        font-size: 13px;
+    }
+
+    small {
+        font-size: 10px;
+        margin: 0 0 50px 90px;
+    }
+
+    #cta {
+        font-size: 22px;
+    }
+
+    .footer li a {
+        padding: 3px;
+    }
+}
+
+@media only screen and (max-width: 480px) {
+    h1 {
+        font-size: 15px;
+        padding-bottom: 0px;
+    }
+
+    .links a {
+        font-size: 12px;
+        margin: 0;
+        padding-right: 7px;
+    }
+
+    ul {
+        margin-top: 0px;
+    }
+
+    .links a:hover {
+        font-size: 15px;
+    }
+
+    .card {
+        width: 100%;
+        box-sizing: border-box;
+        display: inline-block;
+        margin-top: 20px;
+    }
+
+    .card figcaption {
+        font-weight: 100;
+        font-size: 14px;
+        margin: 4px 0 20px 0;
+    }
+
+    .about {
+        font-size: 90%;
+        margin: 30px 0 0 90px;
+        min-width: 270px;
+        width: 40%;
+    }
+
+    .about h3 {
+        font-weight: 100;
+        margin-bottom: 25px;
+    }
+
+    .contact {
+        font-size: 95%;
+        margin: 10px 0 35px 0;
+        padding: 0;
+    }
+
+    button {
+        display: inline;
+        width: 150px;
+        height: 35px;
+        border-radius: 20px;
+        text-transform: uppercase;
+        font-size: 12px;
+        font-weight: 600;
+        color: #ff3220;
+    }
+
+    button:hover {
+        background-color: #ff3220;
+        color: #ffffff;
+    }
+
+    .footer li {
+        font-size: 11px;
+        display: inline;
+    }
+
+    .footer li a {
+        color: black;
+        text-decoration: none;
+        margin: 0 0 0 50px;
+        padding: 0px;
+    }
+
+    footer {
+        width: auto;
+        border-top: 1px solid black;
+    }
+
+    footer li a:hover {
+        color: blue;
+        font-size: 11px;
+    }
+
+    small {
+        font-size: 9px;
+        margin: 0 0 50px 90px;
+    }
+
+    #cta {
+        font-size: 20px;
+    }
+
+    .footer li a {
+        padding: 3px;
+    }
+}
