@@ -118,7 +118,7 @@ button:hover {
 }
 
 .contact {
-    font-size: 13px;
+    font-size: 14px;
     margin: 10px 0 10px 0;
     padding: 0;
 }
@@ -128,7 +128,7 @@ button:hover {
 }
 
 .footer li {
-    font-size: 12px;
+    font-size: 14px;
     display: inline;
     margin-bottom: 0;
 }
@@ -149,7 +149,7 @@ footer {
 
 footer li a:hover {
     color: blue;
-    font-size: 13px;
+    font-size: 15px;
 }
 
 footer li a:visited {
@@ -157,7 +157,7 @@ footer li a:visited {
 }
 
 small {
-    font-size: 11px;
+    font-size: 12px;
     margin: 0 0 50px 90px;
 }
 
@@ -241,10 +241,7 @@ a:hover {
         color: #ffffff;
     }
 
-    .footer li {
-        font-size: 12px;
-        display: inline;
-    }
+  
 
     .footer li a {
         color: black;
@@ -260,11 +257,11 @@ a:hover {
 
     footer li a:hover {
         color: blue;
-        font-size: 13px;
+        font-size: 14px;
     }
 
     small {
-        font-size: 11px;
+        font-size: 12px;
         margin: 0 0 50px 90px;
     }
 
@@ -372,7 +369,7 @@ a:hover {
     }
 
     small {
-        font-size: 10px;
+        font-size: 12px;
         margin: 0 0 50px 90px;
     }
 
@@ -453,7 +450,7 @@ a:hover {
     }
 
     .footer li {
-        font-size: 11px;
+        font-size: 12px;
         display: inline;
     }
 
@@ -471,11 +468,11 @@ a:hover {
 
     footer li a:hover {
         color: blue;
-        font-size: 11px;
+        font-size: 12px;
     }
 
     small {
-        font-size: 9px;
+        font-size: 12px;
         margin: 0 0 50px 90px;
     }
 
